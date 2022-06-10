@@ -1,0 +1,49 @@
+.stats_table {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.survey_finished {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    min-height: 95%;
+    max-width: 1000px;
+    padding: 60px 40px 40px 40px;
+}
+
+.field_success {
+    font-family: "Helvetica", sans-serif;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+
+.link {
+    text-decoration: none;
+    background-color: #edd9ed;
+    color: rgba(77, 0, 75, 100);
+    padding: 7px;
+    width: 90%;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.link_field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.field_link_name {
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.link_copy_button {
+    width: 10%;
+}
